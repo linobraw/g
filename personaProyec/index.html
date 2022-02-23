@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1"style > ENTRADA DE CASOS</h1>
+        <hr style="color: rgb(255, 60, 0);tab-size: 40px; ">
+        <br>
+        <label for="numero_casos">Numero de casos: </label>
+        <input type="text" id="numero_casos" name="numero_casos" placeholder="favor escribir el numero del caso " required = "true"/>   
+        <label for="Remistente">Remistentes:</label>
+        <input type="text" id="Remistente" name="Remistente"placeholder="favor escribir el Remistente del casos" required= "true"/>
+        <label for="Fecha">Fecha</label>
+        <input type="datetime"id="Fecha"name="Fecha" placeholder="favor escribir la fecha  de hoy " required ="true"/> 
+        <br>
+        <br/>
+        
+        <label for="imputado">imputado:</label>
+        <input type="text" id="imputado" name="imputado" placeholder="favor escribir el Nombre del imputado" required ="true  "/>
+        <label for="Cedula">Cedula</label>
+        <input type="numero"id="Cedula"name="Cedula" placeholder="Favor escribir la cedula del imputado"/>
+        <br>
+        <br>
+       <label for="Victima">Victima</label> 
+        <input type="text" id= "Victima" name="Victima" placeholder=" Favor escribir el Nombre de la Victimas"/>
+        <br>
+        <hr>
+            <label for="Despacho_Responsable">Despacho Responsable</label>
+            <select name="Despacho_Responsable" id="Despacho_Responsable">
+                <option value="">Crimenes y Delitos contra la Persona</option>
+                <option value="">Crimenes y Delitos contra la Propiedad</option>
+                <option value="">Droga</option>
+                <option value="">AltaTecnologia</option>
+                <option value="">Violencia de Generos</option>
+                <option value="">Fiscalia comunitaria Gualey</option>
+                <option value="">Fiscalia de los Guandules</option>
+                <option value="">Fiscalia de los Girasoles:</option>
+            </select>
+            <label for = "Fecha_de_Entrada_del_casos">Fecha de Entrada del casos</label>
+            <input type ="datetime"id="Fecha_de_Entrada_del_casos" name="Fecha de Entrada del casos"placeholder = "fecha de la denuncia"/>
+            <label for = "Fecha del hecho">Fecha del hecho</label>
+            <input type ="datetime" id="Fecha del hecho" placeholder=" Fecha en la que ocurrio el hecho"/>
+            <br>
+            <br>
+            <label for=" ">Tipos de Medidads de coercion</label>
+            <select name="" id="">
+                <option value="">Prision Preventiva</option>
+                <option value="">Presentacion periodica</option>
+                <option value="">Garantia Economica</option>
+            </select>
+            <label for="">Pieza del caso</label>
+            <select name="" id="">
+                <option value="">Acta de Allanamiento</option>
+            </select>
+            <hr>
+            <label for="relato"><strong>Relato</strong></label><br/><br/>
+            <textarea name="relato" id="relato" cols="50" rows="8">Relado</textarea>
+            <br>
+            <br>
+            <button style="padding: 10px;width: 100px;">Nuevo</button>  <button style="padding: 10px;width: 100px;" >Guardar</button>  <button style="padding: 10px;" >Salir del Sistema </button> <button style="padding: 10px;width: 100px;" > Editar  </button>
+
+        
+        
+
+   </body>
+</html>
